@@ -925,7 +925,8 @@ body.nav-opened .nav {
 }
 
 .post-header{
-  margin-top:50px
+  margin-top:50px;
+  margin-bottom:7%;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1859,6 +1860,7 @@ body:not(.post-template) .post-title {
     .post-template .site-footer {
         margin-top: 0;
     }
+
 
     .post-content img {
         padding: 0;

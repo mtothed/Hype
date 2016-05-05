@@ -1237,7 +1237,8 @@ export default StyleSheet.create({
         "marginBottom": "1%"
     },
     "post-header": {
-        "marginTop": 50
+        "marginTop": 50,
+        "marginBottom": "7%"
     },
     "post:after": {
         "display": "block",
