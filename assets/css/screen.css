@@ -1651,7 +1651,7 @@ body:not(.post-template) .post-title {
 
 
     body:not(.post-template) .post-title {
-
+       height:138px;
     }
 
     hr {
