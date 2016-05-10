@@ -1160,6 +1160,10 @@ body:not(.post-template) .post-title {
     color: #111;
 }
 
+.post-loop{
+  margin-bottom:5%;
+}
+
 /* Create some space to the right for the share links */
 .post-footer .author {
     margin-right: 180px;

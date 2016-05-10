@@ -1456,6 +1456,9 @@ export default StyleSheet.create({
     "author-meta a:hover": {
         "color": "#111"
     },
+    "post-loop": {
+        "marginBottom": "5%"
+    },
     "post-footer author": {
         "marginRight": 180
     },
