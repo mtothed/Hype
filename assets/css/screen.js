@@ -1237,7 +1237,8 @@ export default StyleSheet.create({
         "marginBottom": "1%"
     },
     "post-header": {
-        "marginTop": 50
+        "marginTop": 50,
+        "marginBottom": "7%"
     },
     "post:after": {
         "display": "block",
@@ -1454,6 +1455,9 @@ export default StyleSheet.create({
     },
     "author-meta a:hover": {
         "color": "#111"
+    },
+    "post-loop": {
+        "marginBottom": "5%"
     },
     "post-footer author": {
         "marginRight": 180
