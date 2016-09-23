@@ -461,6 +461,10 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: middle;
 }
 
+.opacity-background-image{
+  background-color: rgba(0,0,0,0.5);
+}
+
 /* Wraps the main content & footer */
 .site-wrapper {
     position: relative;
@@ -923,6 +927,7 @@ body.nav-opened .nav {
   margin-right:2%;
   margin-bottom: 1%
 }
+
 
 .post-header{
   margin-top:50px
