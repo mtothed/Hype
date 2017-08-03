@@ -6,10 +6,10 @@
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
 
-    <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <header class="main-header {{#if @blog.cover_image}}" style="background-image: url({{@blog.cover_image}}){{else}}no-cover{{/if}}">
         <div class="vertical">
             <div class="main-header-content inner">
-                {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{image}}" alt="{{name}}" /></a>{{/if}}
+                {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{img_url profile_image}}" alt="{{name}}" /></a>{{/if}}
                 <h1 class="page-title">{{name}}</h1>
                 <h2 class="page-description">Articulos y estadísticas</h2>
             </div>
